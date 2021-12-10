@@ -1,0 +1,4 @@
+    1  ssh user@pomoika.ga
+    2  ssh user@pomoika.ga
+    3  scp user@pomoika.ga:~/history_remote.txt ./history_remote.txt
+    4  history > history_local.txt

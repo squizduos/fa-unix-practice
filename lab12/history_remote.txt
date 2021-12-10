@@ -1,0 +1,9 @@
+    1  sudo ls
+    2  cat /etc/apt/sources.list
+    3  cat /etc/apt/sources.list > ~/sources.list
+    4  ps -a
+    5  top
+    6  sudo apt-get update
+    7  sudo apt install golang
+    8  sudo reboot
+    9  history > history_remote.txt
