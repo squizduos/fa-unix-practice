@@ -1,0 +1,41 @@
+    9  cd lab13
+   10  mkdir echo_server
+   11  cd echo_server/
+   12  git init
+   13  git status
+   14  nano echo.py
+   15  nano client.py
+   16  git status
+   17  git add client.py 
+   18  git status
+   19  git commit -m "Client"
+   20  nano server.py
+   21  git add server.py 
+   22  git commit -m "Server"
+   23  touch README.md
+   24  git add README.md 
+   25  git commit -m "README.md"
+   26  git log
+   27  nano client.py 
+   28  git commit -m "Changed client"
+   29  git commit -a -m "Changed client"
+   30  virtualenv venv
+   31  nano .gitignore
+   32  git add .gitignore 
+   33  git commit -a -m "Added .gitignore"
+   34  git add .
+   35  git commit -a -m "Added .gitignore"
+   36  git branch v2
+   37  git checkout v2
+   38  git branch
+   39  nano client.py 
+   40  git commit -a -m "New IP address"
+   41  git checkout master
+   42  nano client.py 
+   43  git commit -a -m "New IP address (master)"
+   44  git merge v2
+   45  nano client.py 
+   46  git commit -a -m "Merged v2 to master"
+   47  git tag stable
+   48  git tag
+   49  history > ../history.txt
