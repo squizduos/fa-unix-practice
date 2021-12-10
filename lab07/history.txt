@@ -1,0 +1,13 @@
+    90  tty
+    91  pwd
+    92  tty
+    93  pwd
+    94  tty
+    95  pwd
+    96  who
+    97  whoami
+    98  who
+    99  cat /etc/passwd
+   100  grep --help
+   101  man man
+   102  history

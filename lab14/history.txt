@@ -1,0 +1,28 @@
+  214  git clone git@github.com:squizduos/0_git_basics.git ~/git/test
+  215  cd ~/git/test/
+  216  cp ../backup.sh ./backup.sh
+  217  git add backup.sh 
+  218  git commit -m "Added backup.sh script" 
+  219  git push
+  220  nano backup.sh 
+  221  git add backup.sh 
+  222  git commit -m "Added comment"
+  223  nano backup.sh 
+  224  git add backup.sh 
+  225  git commit -m "Added comment"
+  226  git revert f27f605
+  227  nano backup.sh 
+  228  git log
+  229  cp ~/Документы/hw1*.py
+  230  cp ~/Документы/hw1.py ./
+  231  cp ~/Документы/hw2.py ./
+  232  cp ~/Документы/hw3.py ./
+  233  git add hw*.py
+  234  git commit -m "Added my homework"
+  235  cp ~/Документы/hw4.py ~/Документы/hw5.py ~/Документы/hw6.py ./
+  236  git add hw*.py
+  237  git commit -m "Added my homework part 2"
+  238  cp ~/Документы/hw7.py ~/Документы/hw8.py ~/Документы/hw9.py ./
+  239  git add hw*.py
+  240  git commit -m "Added my homework part 3"
+  241  git push

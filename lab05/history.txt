@@ -1,0 +1,19 @@
+    1  history 
+    2  cd lab05/
+    3  nano test.sh
+    4  chmod +x test.sh
+    5  export PATH="$HOME/Projects/fa-unix-practice/lab05:$PATH"
+    6  nano test.sh 
+    7  test.sh 
+    8  nano test.sh 
+    9  test.sh 
+   10  cat /tmp/19\:52\:57.txt 
+   11  crontab -e # * * * * * =test.sh
+   12  find /tmp -name "*.txt"
+   13  crontab -e # * * * * * ~/Projects/fa-unix-practice/lab05/test.sh
+   14  find /tmp -name "*.txt"
+   15  grep cron /var/log/syslog
+   16  sudo grep cron /var/log/syslog
+   17  crontab -e # */10 * * * * find /tmp/ -name "*.txt" -mmin 17 -type f -exec rm -rf {} \;
+   18  sudo grep cron /var/log/syslog
+   19  history > history.txt
